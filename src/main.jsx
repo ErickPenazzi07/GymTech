@@ -12,6 +12,9 @@ import Registrar from './pages/Registrar.jsx';
 import Carrinho from './pages/Carrinho.jsx';
 import Home from './pages/Home.jsx';
 import Promoçoes from './pages/Promoçoes.jsx';
+import Roupas from './pages/Roupas.jsx';
+import Suplementos from './pages/Suplementos.jsx';
+import Equipamentos from './pages/Equipamentos.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -23,6 +26,9 @@ createRoot(document.getElementById('root')).render(
           <Route path="/registrar" element={<Registrar />} />
           <Route path="/carrinho" element={<Carrinho />} />
           <Route path="/promocoes" element={<Promoçoes />} />
+          <Route path="/roupas" element={<Roupas />} />
+          <Route path="/suplementos" element={<Suplementos />} />
+          <Route path="/equipamentos" element={<Equipamentos />} />
         </Routes>
       </BrowserRouter>
   </StrictMode>,
