@@ -12,7 +12,7 @@ const Header = () => {
     const [searchQuery, setSearchQuery] = useState("")
   return (
     <header>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-black">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-black p-4">
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/">
           GymTech
@@ -48,17 +48,17 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="roupas">
                     Roupas
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="suplementos">
                     Suplementos
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="equipamentos">
                     Equipamentos
                   </a>
                 </li>
